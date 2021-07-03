@@ -1,0 +1,144 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Duplo_Mesh_Solid",
+            "rotation" : [
+                -0.09620152413845062,
+                -0.700532078742981,
+                0.7005322575569153,
+                -0.09620150923728943
+            ],
+            "translation" : [
+                -0.08309811353683472,
+                0,
+                2.056375741958618
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Stone Mterial.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.13698628544807434,
+                "roughnessFactor" : 0.2546440064907074
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Duplo_Mesh_Solid",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Stone_texture",
+            "uri" : "Stone_texture.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 314351,
+            "max" : [
+                0.689965009689331,
+                -0.6881139874458313,
+                -0.2898299992084503
+            ],
+            "min" : [
+                -0.9295089840888977,
+                -2.392486095428467,
+                -3.90606689453125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 314351,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 314351,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 372594,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 3772212,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3772212,
+            "byteOffset" : 3772212
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2514808,
+            "byteOffset" : 7544424
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1490376,
+            "byteOffset" : 10059232
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 11549608,
+            "uri" : "untitled2.bin"
+        }
+    ]
+}
