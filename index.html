@@ -3,13 +3,34 @@
     <head>
       <meta charset="utf-8">
     </head>
-
     <body>
     <div>
-    <br><br><br><br><br><br><p align = "center">
-    <model-viewer src="azalea.glb" alt="palm" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls unstable-webxr></model-viewer>
+       
+   <p align = "center">    
+   <style>
+    model-viewer {
+    width: 1000px;
+    height: 500px;
+    }
+    </style>
+    <model-viewer src="poke2.glb" shadow-intensity="1" alt="scene" auto-rotate ar magic-leap quick-look-browsers="safari chrome" ar-modes="webxr scene-viewer quick-look"
+                  environment-image="neutral" camera-controls unstable-webxr>
+        
+        <!--ios-src="usdz_baking_4figures_and_dots2___1625831425174.usdz"-->
+      <button slot="ar-button" style="background-color: white; border-radius: 4px; position: absolute; top: 16px; left: 16px; height: 35px; width: 200px; font-size: 24px">
+      👋 Go into AR
+      </button>
+    </model-viewer>
     </div>
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"> 
     </script>
+    
+    <!-- 💁 Include both scripts below to support all browsers!-->
+    <script type="module" src="https://unpkg.com/@google/model-viewer@v0.9.0/dist/model-viewer.js">
+    </script>
+    <script nomodule="" src="https://unpkg.com/@google/model-viewer@v0.9.0/dist/model-viewer-legacy.js">
+    </script>  
+   
+        
     </body>
 </html>
